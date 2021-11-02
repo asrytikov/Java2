@@ -10,6 +10,7 @@ public class Prog {
         comp1.name = "My_comp";
         comp1.read = 500;
 
+
         System.out.println(comp1.name + " " + comp1.getMemory());
 
         System.out.println(Computers.nameProgrammer);
@@ -25,6 +26,20 @@ public class Prog {
         System.out.println(comp1.read);
 
         //Смоделировать класс с полями и методами, определить конструктор, сделать несколько перегрузок методов. Создать несколько объектов в массиве.
+
+      /*  boolean flag = false;
+
+        if (!flag){
+            System.out.println("true");
+        }*/
+
+        Servers srv = new Servers();
+        srv.setLocation("srv_base");
+        System.out.println(srv.name);
+        srv.readData();
+        System.out.println(srv.getRead());
+
+
 
     }
 
